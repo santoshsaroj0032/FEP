@@ -1,13 +1,13 @@
 {
-  "name": "my-v0-project",
+  "name": "freeemiplatform",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev --no-turbo",
     "build": "next build",
-    "dev": "next dev",
+    "start": "next start",
     "lint": "eslint .",
-    "seed": "node scripts/seed-mongodb.js",
-    "start": "next start"
+    "seed": "node scripts/seed-mongodb.js"
   },
   "dependencies": {
     "@aws-sdk/credential-providers": "latest",

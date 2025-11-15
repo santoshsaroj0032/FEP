@@ -2,7 +2,6 @@
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
-    turbo: false,
   },
   images: {
     unoptimized: true,
